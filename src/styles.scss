@@ -13,6 +13,12 @@ $secondary-color: black;
   align-items: center;
 }
 
+@mixin background() {
+  margin-top: 65px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 body {
   background: $main-color;
   margin: 0;
@@ -42,6 +48,16 @@ body {
     p {
       padding-left: 15px;
       font-size: 20px;
+      cursor: pointer;
+      color: white;
     }
   }
+  .link {
+    text-decoration: none;
+  }
+}
+.about,
+.projects,
+.home {
+  @include background();
 }

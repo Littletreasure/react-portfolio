@@ -54,5 +54,20 @@ body h1 {
 .header .navbar p {
   padding-left: 15px;
   font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.header .link {
+  text-decoration: none;
+}
+
+.about,
+.projects,
+.home {
+  margin-top: 65px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=styles.css.map */
