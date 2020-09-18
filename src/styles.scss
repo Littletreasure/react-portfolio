@@ -1,0 +1,47 @@
+$main-color: white;
+$secondary-color: black;
+
+@mixin flex-row() {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@mixin flex-column() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background: $main-color;
+  margin: 0;
+  p,
+  h1 {
+    margin: 0;
+  }
+}
+
+.header {
+  @include flex-row();
+  justify-content: space-between;
+  background: $secondary-color;
+  color: $main-color;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  box-sizing: border-box;
+  font-family: "Architects Daughter", cursive;
+  h1 {
+    padding-left: 10px;
+  }
+  .navbar {
+    @include flex-row();
+    p {
+      padding-left: 15px;
+      font-size: 20px;
+    }
+  }
+}
