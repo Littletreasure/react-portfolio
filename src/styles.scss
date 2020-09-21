@@ -14,7 +14,7 @@ $secondary-color: black;
 }
 
 @mixin background() {
-  margin-top: 65px;
+  margin-top: 60px;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -22,6 +22,7 @@ $secondary-color: black;
 body {
   background: $main-color;
   margin: 0;
+  font-family: "Balsamiq Sans", cursive;
   p,
   h1 {
     margin: 0;
@@ -48,16 +49,63 @@ body {
     p {
       padding-left: 15px;
       font-size: 20px;
-      cursor: pointer;
-      color: white;
     }
   }
   .link {
     text-decoration: none;
+    color: white;
+    cursor: pointer;
   }
 }
+
 .about,
 .projects,
 .home {
   @include background();
+  @include flex-column();
+}
+.home {
+  height: 90vh;
+  justify-content: center;
+
+  h1,
+  h2,
+  p {
+    margin: 30px;
+  }
+}
+.about {
+  width: 100%;
+  padding: 0;
+  background: #d9d9d9;
+
+  h2 {
+    margin-top: 80px;
+  }
+  .aboutText {
+    padding: 10px;
+  }
+  #ruth {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .pics img {
+    width: 100px;
+    padding: 20px;
+  }
+  .certs img {
+    width: 250px;
+    padding: 20px;
+  }
+  p {
+    margin: 20px;
+    text-align: justify;
+    font-size: 20px;
+  }
+  #codepen {
+    padding: 0 10px;
+  }
+  #github {
+    padding-left: 10px;
+  }
 }
