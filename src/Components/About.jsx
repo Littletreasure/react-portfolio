@@ -43,6 +43,7 @@ class About extends Component {
               id="codepen"
               href="https://codepen.io/littletreasure"
               target="_blank"
+              rel="noopener noreferrer"
             >
               CodePen
             </a>
@@ -51,6 +52,7 @@ class About extends Component {
               id="github"
               href="https://github.com/Littletreasure"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>
@@ -58,8 +60,12 @@ class About extends Component {
           </p>
         </div>
         <div className="certs">
-          <img src={frontend} />
-          <img src={webdesign} />
+          <a href={frontend} target="_blank" rel="noopener noreferrer">
+            <img src={frontend} alt="frontend certificate" />
+          </a>
+          <a href={webdesign} target="_blank" rel="noopener noreferrer">
+            <img src={webdesign} alt="web design certificate" />
+          </a>
         </div>
         <div>
           <p>
@@ -69,9 +75,9 @@ class About extends Component {
           </p>
         </div>
         <div className="pics">
-          <img src={ruth1} />
-          <img src={ruth2} />
-          <img src={ruth4} />
+          <img src={ruth1} alt="running pic1" />
+          <img src={ruth2} alt="running pic1" />
+          <img src={ruth4} alt="running pic1" />
         </div>
       </div>
     );

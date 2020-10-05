@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Home path="/" />
           <About path="/about" />
           <Projects path="/projects" />
+          <Contact path="/contact" />
         </Router>
       </div>
     </div>

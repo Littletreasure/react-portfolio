@@ -16,7 +16,9 @@ class Header extends Component {
           <Link className="link" to="/projects">
             <p id="projects">Projects |</p>
           </Link>
-          <p>Contact</p>
+          <Link className="link" to="/contact">
+            <p id="contact">Contact</p>
+          </Link>
         </nav>
       </div>
     );
