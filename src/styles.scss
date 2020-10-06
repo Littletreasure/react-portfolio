@@ -3,6 +3,7 @@
 $main-color: white;
 $secondary-color: black;
 $project-color: #999999;
+$background-color: #d9d9d9;
 
 @mixin flex-row() {
   display: flex;
@@ -81,7 +82,7 @@ body {
 .about {
   width: 100%;
   padding: 0;
-  background: #d9d9d9;
+  background: $background-color;
 
   h2 {
     margin-top: 80px;
@@ -114,7 +115,7 @@ body {
   }
 }
 .projects {
-  background: #cccccc;
+  background: $background-color;
   padding-bottom: 40px;
   width: 100%;
   h2 {
@@ -184,14 +185,37 @@ body {
 }
 
 .contact {
-  .contactInfo {
-    @include flex-row();
-  }
+  height: 100vh;
+  background: $background-color;
+
   h2 {
     margin: 80px 0 30px 0;
   }
   #emaillogo {
     width: 32px;
     margin-left: 20px;
+  }
+  .links {
+    @include flex-column();
+    margin-bottom: 30px;
+    align-items: flex-start;
+    h3 {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+    p {
+      margin-left: 10px;
+      font-size: 20px;
+    }
+  }
+  .link {
+    @include flex-row();
+    text-decoration: none;
+    color: black;
+    margin: 0 0 10px 30px;
+  }
+  .icon {
+    width: 30px;
+    font-size: 30px;
   }
 }
