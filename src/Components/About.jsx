@@ -25,11 +25,14 @@ class About extends Component {
             Firstly as a Technical Clerk in the Environmental Protection
             Department. Secondly as a Data Analyst in the School Organisation
             Section of Children's Services. Thirdly as a Researcher for the
-            Early Help and Children's Social Care Teams. I was made redundant in
-            January 2019. Following a conversation with a friend who was
-            attending Northcoders, I made the decision to enrol and pursue a new
-            career. I enjoy problem solving so I am enjoying learning to code
-            and solving coding problems!
+            Early Help and Children's Social Care Teams. Due to cuts within the
+            Council, I was made redundant in January 2019. Following a
+            conversation with a friend who was attending Northcoders, I made the
+            decision to enrol and pursue a new career. Coding is something I had
+            always had an interest in. When I was younger, I learnt some BASIC
+            and then later on I learnt HTML and CSS. I actually designed the
+            first website for my church back in 1998. I enjoy problem solving so
+            I am enjoying learning to code and solving coding problems!
           </p>
           <p>
             At Northcoders I learnt Javascript, React, HTML and CSS. We also
