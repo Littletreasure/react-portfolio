@@ -4,6 +4,7 @@ import ruth from "../images/Ruth Sargent (1).jpg";
 import ruth1 from "../images/ruth1.JPG";
 import ruth2 from "../images/ruth2.jpg";
 import ruth4 from "../images/ruth4.jpg";
+import ruth6 from "../images/ruth6.JPG";
 import frontend from "../images/frontend.jpeg";
 import webdesign from "../images/webdesign.jpeg";
 
@@ -59,7 +60,8 @@ class About extends Component {
             >
               GitHub
             </a>
-            .
+            . I have recently completed a PHP course on Udemy which covered the
+            fundamentals of PHP and have signed up for a second course.
           </p>
         </div>
         <div className="certs">
@@ -72,15 +74,30 @@ class About extends Component {
         </div>
         <div>
           <p>
-            In my spare time I enjoy running and have completed a couple of half
-            marathons and a metric marathon. I am a member of Southport Waterloo
-            Athletics Club and I attend parkrun regularly.
+            In my spare time I enjoy running and I am a member of Southport
+            Waterloo Athletics Club. I have completed a couple of half marathons
+            and a metric marathon. I regularly attended parkrun before lockdown
+            and have volunteered there several times in a few different roles.
           </p>
         </div>
         <div className="pics">
           <img src={ruth1} alt="running pic1" />
           <img src={ruth2} alt="running pic1" />
           <img src={ruth4} alt="running pic1" />
+          <img src={ruth6} alt="volunteering pic" />
+        </div>
+
+        <div>
+          <p>
+            I am a member of the Salvation Army Church and I attend the church
+            every week. I have recently volunteered in the Church office to
+            cover for the administrator.
+          </p>
+
+          <p>
+            I also enjoy reading, jigsaws, playing computer games and various
+            crafts.
+          </p>
         </div>
       </div>
     );

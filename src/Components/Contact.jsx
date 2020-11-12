@@ -28,6 +28,7 @@ function Contact() {
             className="link"
             href="https://github.com/Littletreasure"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon className="icon" icon={faGithub} />
             <p>GitHub</p>
@@ -36,6 +37,7 @@ function Contact() {
             className="link"
             href="https://www.freecodecamp.org/littletreasure"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon className="icon" icon={faFreeCodeCamp} />
             <p>freeCodeCamp</p>
@@ -44,8 +46,9 @@ function Contact() {
             className="link"
             href="https://www.codecademy.com/profiles/Littletreasure"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img className="icon" src={codecademy} />
+            <img className="icon" src={codecademy} alt="codecademy logo" />
             <p>Codecademy</p>
           </a>
         </div>
@@ -56,6 +59,7 @@ function Contact() {
             className="link"
             href="https://www.instagram.com/ruth_littletreasure/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon className="icon" icon={faInstagram} />
             <p>Instagram</p>

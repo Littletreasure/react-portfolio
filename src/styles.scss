@@ -59,13 +59,18 @@ body {
     text-decoration: none;
     color: white;
     cursor: pointer;
+    p:hover,
+    h1:hover {
+      color: gray;
+    }
   }
 }
 
 .about,
 .projects,
 .home,
-.contact {
+.contact,
+.project {
   @include background();
   @include flex-column();
 }
@@ -114,10 +119,12 @@ body {
     padding-left: 10px;
   }
 }
-.projects {
+.projects,
+.projects2 {
   background: $background-color;
   padding-bottom: 40px;
   width: 100%;
+
   h2 {
     margin: 80px 0 30px 0;
   }
@@ -130,6 +137,9 @@ body {
     row-gap: 40px;
     box-sizing: border-box;
   }
+  .proj-link {
+    text-decoration: none;
+  }
   .project-tile {
     justify-self: center;
     display: flex;
@@ -140,17 +150,45 @@ body {
     // box-shadow: 3px 3px 8px 4px #4d4d4d;
     background: $project-color;
     cursor: pointer;
+
     img {
+      background-color: ivory;
       width: 100%;
     }
-    a,
     p {
       margin: 10px;
-      text-decoration: none;
       color: black;
     }
   }
 }
+
+.project {
+  h2 {
+    margin: 30px 0 30px 0;
+  }
+  img {
+    width: 70%;
+  }
+  p {
+    margin: 30px;
+    text-align: justify;
+  }
+  .footer {
+    @include flex-row();
+    justify-content: space-between;
+    width: 95%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .icon {
+      width: 25px;
+      font-size: 25px;
+    }
+  }
+}
+
 .modal {
   position: fixed;
   top: 0;

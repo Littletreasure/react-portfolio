@@ -4,8 +4,9 @@ import "./css/styles.css";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Projects from "./Components/Projects";
+import Projects2 from "./Components/Projects2";
 import Contact from "./Components/Contact";
+import Project from "./Components/Project";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Router>
           <Home path="/" />
           <About path="/about" />
-          <Projects path="/projects" />
+          <Projects2 path="/projects" />
           <Contact path="/contact" />
+          <Project path="/project/:id" />
         </Router>
       </div>
     </div>

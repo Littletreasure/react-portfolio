@@ -11,11 +11,13 @@ class Header extends Component {
         </Link>
         <nav className="navbar">
           <Link className="link" to="/about">
-            <p id="about">About Me |</p>
+            <p id="about">About Me</p>
           </Link>
+          <p>|</p>
           <Link className="link" to="/projects">
-            <p id="projects">Projects |</p>
+            <p id="projects">Projects</p>
           </Link>
+          <p>|</p>
           <Link className="link" to="/contact">
             <p id="contact">Contact</p>
           </Link>
