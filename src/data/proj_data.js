@@ -103,7 +103,7 @@ const projects = [
           api
         </a>
         . It had to have the option to change the name used in the joke and also
-        to have a never ending joke list.
+        to have a never ending joke list. I used React and CSS.
       </p>
     ),
     github: "https://github.com/Littletreasure/chuck_test_fe",
@@ -118,7 +118,7 @@ const projects = [
         Design Certification. The task was to create a survey form with the
         following elements - name, email address, number, dropdown box, radio
         buttons, checkboxes and comment box. Each element should have
-        placeholder text. I created it using HTML and css. I created the
+        placeholder text. I created it using HTML and CSS. I created the
         original version in{" "}
         <a
           href="https://codepen.io/littletreasure/pen/VwayVmP"
@@ -142,7 +142,7 @@ const projects = [
         Design Certification. The task was to create a product landing page. It
         should have a nav bar which navigates to different sections of the page.
         It should also have an embedded video and a form element. I created it
-        using HTML and css. I created the original version in{" "}
+        using HTML and CSS. I created the original version in{" "}
         <a
           href="https://codepen.io/littletreasure/pen/xxVYdpM"
           target="_blank"
@@ -162,7 +162,18 @@ const projects = [
     description: (
       <p>
         This is a project completed as part of the freeCodeCamp Responsive Web
-        Design Certification.
+        Design Certification. The task was to create a tribute page which
+        contains a picture and caption, tribute information and a link to an
+        external site. I created it using HTMl and CSS. I created the original
+        version in{" "}
+        <a
+          href="https://codepen.io/littletreasure/pen/gOrGWoo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          CodePen
+        </a>
+        .
       </p>
     ),
     github: "https://github.com/Littletreasure/tribute-page",
@@ -251,11 +262,11 @@ const projects = [
         </a>
         . The main requirements were to build a drum machine with 9 pads,
         labelled Q, W, E, A, S, D, Z, X, C. Each pad should trigger a unique
-        audio clip when clicked with a mouse or when the corresponding key on a
-        keyboard is pressed. The name of the audio clip should be shown in the
-        app. I created a more advanced version for gitHub which also has power
-        on and off, volume control and a choice of 2 sound banks. I used React
-        and SCSS.
+        audio clip when clicked with a mouse or when the corresponding key on
+        the keyboard is pressed. The name of the audio clip should be shown in
+        the app. I created a more advanced version for gitHub which also has
+        power on and off, volume control and a choice of 2 sound banks. I used
+        React and SCSS.
       </p>
     ),
     github: "https://github.com/Littletreasure/drum-machine",
