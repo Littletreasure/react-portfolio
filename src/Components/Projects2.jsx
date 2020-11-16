@@ -89,10 +89,10 @@ class Projects2 extends Component {
           </Link>
           <Link className="proj-link" to="/project/3">
             <div className="project-tile">
-              <p>Markdown Viewer</p>
+              <p>Markdown Previewer</p>
               <img
                 src={require("../images/markdown.jpeg")}
-                alt="markdown viewer"
+                alt="markdown previewer"
               />
             </div>
           </Link>

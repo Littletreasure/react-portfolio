@@ -4,7 +4,7 @@ import "./css/styles.css";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Projects2 from "./Components/Projects2";
+import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Project from "./Components/Project";
 
@@ -16,7 +16,7 @@ function App() {
         <Router>
           <Home path="/" />
           <About path="/about" />
-          <Projects2 path="/projects" />
+          <Projects path="/projects" />
           <Contact path="/contact" />
           <Project path="/project/:id" />
         </Router>

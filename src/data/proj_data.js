@@ -205,7 +205,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Markdown Viewer",
+    title: "Markdown Previewer",
     image: require("../images/markdown.jpeg"),
     description: (
       <p>

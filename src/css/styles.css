@@ -58,6 +58,24 @@ body h1 {
   font-size: 20px;
 }
 
+@media (max-width: 650px) {
+  .header .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header p {
+    font-size: 15px;
+  }
+}
+
 .header .link {
   text-decoration: none;
   color: white;
@@ -88,6 +106,16 @@ body h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 650px) {
+  .about,
+  .projects,
+  .home,
+  .contact,
+  .project {
+    margin-top: 80px;
+  }
 }
 
 .home {
@@ -125,6 +153,34 @@ body h1 {
 .about .pics img {
   width: 100px;
   padding: 20px;
+}
+
+.about .certs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 650px) {
+  .about .certs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .about .certs img {
@@ -278,25 +334,38 @@ body h1 {
   top: 5%;
   left: 13%;
   border: 2px solid white;
+  padding: 10px;
 }
 
 .modal .modal-main img {
   border: 1px solid #999999;
+  width: 80%;
 }
 
-.modal .modal-main img,
 .modal .modal-main p {
-  margin-bottom: 10px;
+  margin: 20px 0;
   width: 100%;
+  text-align: justify;
+}
+
+@media (max-width: 650px) {
+  .modal .modal-main p {
+    font-size: 10px;
+  }
+}
+
+.modal .modal-main h2 {
+  margin: 0 0 10px 0;
 }
 
 .modal .modal-main button {
   margin-bottom: 10px;
 }
 
-.modal .modal-main a {
+.modal .modal-main .gitLink {
   -ms-flex-item-align: start;
       align-self: flex-start;
+  text-decoration: none;
 }
 
 .contact {
