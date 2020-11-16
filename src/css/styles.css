@@ -90,8 +90,7 @@ body h1 {
 .about,
 .projects,
 .home,
-.contact,
-.project {
+.contact {
   margin-top: 60px;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -112,8 +111,7 @@ body h1 {
   .about,
   .projects,
   .home,
-  .contact,
-  .project {
+  .contact {
     margin-top: 80px;
   }
 }
@@ -129,6 +127,7 @@ body h1 {
 .home h2,
 .home p {
   margin: 30px;
+  text-align: center;
 }
 
 .about {
@@ -202,20 +201,17 @@ body h1 {
   padding-left: 10px;
 }
 
-.projects,
-.projects2 {
+.projects {
   background: #d9d9d9;
   padding-bottom: 40px;
   width: 100%;
 }
 
-.projects h2,
-.projects2 h2 {
+.projects h2 {
   margin: 80px 0 30px 0;
 }
 
-.projects .projects-container,
-.projects2 .projects-container {
+.projects .projects-container {
   width: 90%;
   display: -ms-grid;
   display: grid;
@@ -230,13 +226,11 @@ body h1 {
           box-sizing: border-box;
 }
 
-.projects .proj-link,
-.projects2 .proj-link {
+.projects .proj-link {
   text-decoration: none;
 }
 
-.projects .project-tile,
-.projects2 .project-tile {
+.projects .project-tile {
   justify-self: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -255,56 +249,14 @@ body h1 {
   cursor: pointer;
 }
 
-.projects .project-tile img,
-.projects2 .project-tile img {
+.projects .project-tile img {
   background-color: ivory;
   width: 100%;
 }
 
-.projects .project-tile p,
-.projects2 .project-tile p {
+.projects .project-tile p {
   margin: 10px;
   color: black;
-}
-
-.project h2 {
-  margin: 30px 0 30px 0;
-}
-
-.project img {
-  width: 70%;
-}
-
-.project p {
-  margin: 30px;
-  text-align: justify;
-}
-
-.project .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 95%;
-}
-
-.project .footer a {
-  text-decoration: none;
-  color: black;
-}
-
-.project .footer .icon {
-  width: 25px;
-  font-size: 25px;
 }
 
 .modal {
@@ -350,7 +302,7 @@ body h1 {
 
 @media (max-width: 650px) {
   .modal .modal-main p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 

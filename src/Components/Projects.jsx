@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Modal from "./Modal2";
+import Modal from "./Modal";
 import "../css/styles.css";
 
 class Projects extends Component {

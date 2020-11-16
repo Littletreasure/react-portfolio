@@ -70,7 +70,7 @@ const projects = [
           netlify
         </a>
         . I built the frontend using React and CSS. Both repositories are held
-        on Github.
+        on GitHub.
       </p>
     ),
     github: "https://github.com/Littletreasure/nc-news",

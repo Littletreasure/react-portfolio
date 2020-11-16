@@ -6,7 +6,6 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-import Project from "./Components/Project";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
           <About path="/about" />
           <Projects path="/projects" />
           <Contact path="/contact" />
-          <Project path="/project/:id" />
         </Router>
       </div>
     </div>
