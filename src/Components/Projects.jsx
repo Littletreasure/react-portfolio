@@ -20,6 +20,10 @@ class Projects extends Component {
       <div className="projects" id="projects">
         <h2>These are some of my projects</h2>
         <div className="projects-container">
+          <div onClick={() => this.showModal(13)} className="project-tile">
+            <p>Auction Page</p>
+            <img src={require("../images/auction.jpg")} alt="auction page" />
+          </div>
           <div onClick={() => this.showModal(12)} className="project-tile">
             <p>Animal Crossing Site</p>
             <img

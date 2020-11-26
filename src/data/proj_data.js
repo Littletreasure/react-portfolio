@@ -2,6 +2,46 @@ import React from "react";
 
 const projects = [
   {
+    id: 13,
+    title: "Auction Page",
+    image: require("../images/auction.jpg"),
+    description: (
+      <p>
+        My church decided to hold a silent auction on facebook and as I was
+        wanting to practice my php I decided to use this to create a website for
+        the auction items. The site works well on my computer but when I hosted
+        it{" "}
+        <a
+          href="http://southportsa-auction.infinityfreeapp.com/index.php"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
+        , I found that it was calling too many php scripts and didn't work
+        properly on a free account. I then decided to redo it as a React project
+        and this is hosted on netlify{" "}
+        <a
+          href="https://ssa-auction.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
+        . The php version can be found on GitHub{" "}
+        <a
+          href="https://github.com/Littletreasure/auction_php"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
+        .
+      </p>
+    ),
+    github: "https://github.com/Littletreasure/auction_react",
+  },
+  {
     id: 12,
     title: "Animal Crossing",
     image: require("../images/ac_screen.jpeg"),
