@@ -39,7 +39,7 @@ body {
   background: $secondary-color;
   color: $main-color;
   padding: 10px;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   left: 0;
@@ -93,7 +93,7 @@ body {
   h1,
   h2,
   p {
-    margin: 30px;
+    margin: 30px 50px;
     text-align: center;
   }
 }

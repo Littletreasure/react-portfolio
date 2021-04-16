@@ -74,6 +74,11 @@ class About extends Component {
         </div>
         <div>
           <p>
+            I recently started my first junior developer job at Prestige Worldwide Group in Liverpool. I am now working with Vue js and Nuxt js and I am learning how to work with large websites and how software development works in a business setting. I have also recently worked with Python and Typescript and have just started working with Cloudflare.
+          </p>
+        </div>
+        <div>
+          <p>
             In my spare time I enjoy running and I am a member of Southport
             Waterloo Athletics Club. I have completed a couple of half marathons
             and a metric marathon. I regularly attended parkrun before lockdown
